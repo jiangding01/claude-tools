@@ -7,6 +7,16 @@ Each skill maintains its own version independently; changes are grouped by relea
 
 ## [Unreleased]
 
+### Added
+
+- **socratic-grill** `v1.0.0`
+  - 新增职场苏格拉底式追问 skill：单问制、13 场景路由、8 角色视角压测、10 种分歧类型学，对话收敛为行动共识画布
+  - 自带 9 场景评测（`evals/`）与真实产物示例（`examples/`），实测通过率 98%
+
+### Changed
+
+- `SKILL_SPEC.md` 新增 `examples/` 与 `evals/` 为可选推荐目录，并补充评测与示例的写作要点
+
 ## [2026-04-02]
 
 ### Fixed

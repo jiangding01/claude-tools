@@ -13,6 +13,11 @@ skills/<skill-name>/
 │   └── main.py              # 主脚本（命名不限）
 ├── references/              # 可选：补充参考文档
 │   └── notes.md
+├── examples/                # 可选：真实运行产物示例（输入→输出），优先于虚构样例
+│   └── *.md
+├── evals/                   # 可选：评测用例与结果记录
+│   ├── evals.json           # 评测场景与期望项
+│   └── RESULTS.md           # 实测记录，含通过率与产物来源
 ├── requirements.txt         # 如有 Python 依赖则必须提供
 └── .claude/
     └── settings.local.json  # 可选：该 skill 所需的权限声明
@@ -106,6 +111,14 @@ pip install -r requirements.txt
 ### Node.js 脚本
 
 提供 `package.json`，锁文件（`package-lock.json` 或 `pnpm-lock.yaml`）**不**提交到仓库。
+
+---
+
+## 评测与示例（可选但推荐）
+
+- `examples/` 放真实运行产物，不要虚构样例；每个文件标注产物来源（日期、模型、对应 eval）。
+- `evals/evals.json` 定义测试 prompt 与期望项；`evals/RESULTS.md` 记录实测通过率，数字要能对应到具体产物文件。
+- 改动会影响 skill 行为的 PR，附带对应 evals 的回放结果。
 
 ---
 

@@ -13,6 +13,7 @@ Skills are prompt + script bundles that extend Claude Code's capabilities. Once 
 |------|-------------|---------|
 | [weixin-article-fetcher](skills/weixin-article-fetcher/) | Fetch WeChat public account articles and convert them to clean Markdown. Supports single and batch downloads. | v1.0.1 |
 | [r2-upload](skills/r2-upload/) | Upload files or images to Cloudflare R2 and get back a permanent public URL. Supports local path, base64 string, base64 file, and remote URL. | v1.0.0 |
+| [socratic-grill](skills/socratic-grill/) | Workplace Socratic questioning mentor: one-question-at-a-time, 13 scenario routes, 8 role lenses, converging to an actionable consensus canvas. | v1.0.0 |
 
 ## Installation
 
