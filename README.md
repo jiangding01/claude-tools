@@ -22,8 +22,8 @@ Skills are prompt + script bundles that extend Claude Code's capabilities. Once 
 Install any skill directly with a single command — no cloning required:
 
 ```bash
-npx skills add JiangDing1990/claude-tools --skill weixin-article-fetcher
-npx skills add JiangDing1990/claude-tools --skill r2-upload
+npx skills add jiangding01/claude-tools --skill weixin-article-fetcher
+npx skills add jiangding01/claude-tools --skill r2-upload
 ```
 
 Restart Claude Code and the skill is ready to use.
@@ -32,7 +32,7 @@ Restart Claude Code and the skill is ready to use.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/JiangDing1990/claude-tools.git
+git clone https://github.com/jiangding01/claude-tools.git
 
 # 2. Copy the skill directory into Claude Code's skills path
 cp -r claude-tools/skills/weixin-article-fetcher ~/.claude/skills/
@@ -69,4 +69,4 @@ Contributions are welcome — new skills, bug fixes, or documentation improvemen
 
 ## License
 
-[MIT](LICENSE) © jiangding1990
+[MIT](LICENSE) © jiangding01

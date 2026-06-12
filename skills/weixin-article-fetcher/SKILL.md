@@ -3,7 +3,7 @@ name: weixin-article-fetcher
 description: Fetch and extract WeChat (微信) public account articles from URLs. Use this skill whenever the user wants to scrape, crawl, fetch, read, extract, download, analyze, summarize, or process content from WeChat/微信 public account article links (mp.weixin.qq.com). Also trigger for Chinese requests like "抓取微信文章"、"读取公众号内容"、"提取微信链接"、"下载公众号文章"、"分析/总结这篇微信文章". Supports single URL or batch/bulk fetching of multiple articles. Outputs structured data including title, cover image, URL, and full article body in clean Markdown format.
 metadata: 
   version: 1.0.1
-  author: JiangDing1990
+  author: jiangding01
 ---
 
 # WeChat Article Fetcher (微信公众号文章抓取)

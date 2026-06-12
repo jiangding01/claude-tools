@@ -6,7 +6,7 @@
 
 ### 报告问题
 
-在 [Issues](https://github.com/JiangDing1990/claude-tools/issues) 中提交，请尽量包含：
+在 [Issues](https://github.com/jiangding01/claude-tools/issues) 中提交，请尽量包含：
 - 使用的 Claude Code 版本
 - 复现步骤
 - 期望行为 vs 实际行为
@@ -67,4 +67,4 @@ metadata:
 
 ## 提问
 
-有任何问题欢迎在 [Discussions](https://github.com/JiangDing1990/claude-tools/discussions) 中发起讨论。
+有任何问题欢迎在 [Discussions](https://github.com/jiangding01/claude-tools/discussions) 中发起讨论。

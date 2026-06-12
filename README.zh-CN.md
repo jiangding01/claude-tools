@@ -22,8 +22,8 @@ Skills 是用于扩展 Claude Code 能力的提示词 + 脚本组合，安装后
 无需克隆仓库，一行命令直接安装指定 skill：
 
 ```bash
-npx skills add JiangDing1990/claude-tools --skill weixin-article-fetcher
-npx skills add JiangDing1990/claude-tools --skill r2-upload
+npx skills add jiangding01/claude-tools --skill weixin-article-fetcher
+npx skills add jiangding01/claude-tools --skill r2-upload
 ```
 
 重启 Claude Code 即可使用。
@@ -32,7 +32,7 @@ npx skills add JiangDing1990/claude-tools --skill r2-upload
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/JiangDing1990/claude-tools.git
+git clone https://github.com/jiangding01/claude-tools.git
 
 # 2. 将 skill 目录复制到 Claude Code skills 路径
 cp -r claude-tools/skills/weixin-article-fetcher ~/.claude/skills/
@@ -69,4 +69,4 @@ claude-tools/
 
 ## License
 
-[MIT](LICENSE) © jiangding1990
+[MIT](LICENSE) © jiangding01

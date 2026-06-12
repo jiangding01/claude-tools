@@ -11,7 +11,7 @@ description: >
   re-upload). Always invoke this skill rather than writing ad-hoc upload code.
 metadata: 
   version: v1.0.0
-  author: jiangding1990
+  author: jiangding01
 ---
 
 # R2 Upload Skill
