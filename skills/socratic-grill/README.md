@@ -112,6 +112,7 @@ socratic-grill/
 ├── examples/                     # 真实评测产物（未润色）
 ├── evals/
 │   ├── evals.json                # 9 个评测场景及期望项
+│   ├── trigger_eval.json         # 20 条触发精度测试集（10 正 10 负）
 │   └── RESULTS.md                # 实测记录与已知缺口
 └── scripts/report_evals.py      # 评测结果可信统计（防零值假报告）
 ```

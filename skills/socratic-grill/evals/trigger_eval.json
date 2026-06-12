@@ -1,0 +1,22 @@
+[
+  {"query": "我们下周要做一个架构评审，分库分表方案我觉得基本 ok 了，帮我再想想有没有漏洞", "should_trigger": true},
+  {"query": "帮我梳理一下这个需求，感觉哪里不太对但说不清楚", "should_trigger": true},
+  {"query": "我在纠结要不要换工作，base 涨了 40% 但方向不太对，帮我理清思路", "should_trigger": true},
+  {"query": "前端和后端对这个接口设计有分歧，已经吵了两周了，你帮我追问一下双方", "should_trigger": true},
+  {"query": "我们的 PRD 写完了，上线前你帮我审一下，看看有没有明显的坑", "should_trigger": true},
+  {"query": "这个功能要不要做？帮我想想清楚", "should_trigger": true},
+  {"query": "pm here, got a new feature request from business side, can you help me think through whether it makes sense to build", "should_trigger": true},
+  {"query": "我们昨天生产出了个 p0 故障，帮我用苏格拉底式提问来复盘一下根因", "should_trigger": true},
+  {"query": "这个方案你觉得有没有问题，帮我找找漏洞", "should_trigger": true},
+  {"query": "运营同学提了个活动方案，我想在开会前先过一遍，你帮我追问她几个关键问题", "should_trigger": true},
+  {"query": "帮我写一个 Python 脚本，读取 csv 文件并统计每列的均值", "should_trigger": false},
+  {"query": "解释一下 React useEffect 的 cleanup 函数是怎么工作的", "should_trigger": false},
+  {"query": "帮我把这段英文翻译成中文：The deployment pipeline failed due to a missing environment variable", "should_trigger": false},
+  {"query": "帮我写一封给老板的邮件，说明这个项目延期的原因", "should_trigger": false},
+  {"query": "我有个 bug，点击按钮后页面没有刷新，console 报 TypeError: Cannot read properties of undefined", "should_trigger": false},
+  {"query": "给我列一下 MySQL 分库分表的最佳实践", "should_trigger": false},
+  {"query": "帮我总结一下这篇文章的核心观点", "should_trigger": false},
+  {"query": "我想了解一下 OKR 和 KPI 的区别，能给我解释一下吗", "should_trigger": false},
+  {"query": "帮我 review 一下这段代码，看看有没有性能问题", "should_trigger": false},
+  {"query": "我需要一份竞品分析报告的模板，帮我生成一下", "should_trigger": false}
+]

@@ -17,9 +17,13 @@ description: >
   Do NOT trigger when the user wants a direct deliverable or answer instead of
   thinking something through: writing code or scripts, fixing a specific bug with
   an error trace, explaining a concept, translating text, drafting emails or copy,
-  or asking for a ready-made checklist of best practices.
+  or asking for a ready-made checklist, template, or list of best practices.
+  This applies even when the topic overlaps with a scenario above — e.g.,
+  "给我列一下XX的最佳实践" or "上线前检查清单有哪些" asks for a generic
+  reference list, not a review of the user's own specific plan, so it does not
+  trigger this skill.
 metadata:
-  version: v1.0.0
+  version: v1.0.1
   author: jiangding01
 ---
 

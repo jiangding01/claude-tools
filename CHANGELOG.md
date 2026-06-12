@@ -17,6 +17,12 @@ Each skill maintains its own version independently; changes are grouped by relea
 
 - `SKILL_SPEC.md` 新增 `examples/` 与 `evals/` 为可选推荐目录，并补充评测与示例的写作要点
 
+### Fixed
+
+- **socratic-grill** `v1.0.1`
+  - 修复触发描述歧义：当用户请求的是"通用最佳实践清单/模板"（如"给我列一下XX的最佳实践"）时，即使话题与上线/PRD等正触发场景重叠，也明确不触发本 skill
+  - 新增 `evals/trigger_eval.json`（20 条触发精度测试集，10 正 10 负），并在 `evals/RESULTS.md` 留档首次触发精度测试结果
+
 ## [2026-04-02]
 
 ### Fixed
